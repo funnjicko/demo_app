@@ -7,8 +7,10 @@ gem 'rails', '3.2.10'
 
 gem 'sqlite3'
 
-group :development do
+group :development, :test do
 	gem 'annotate', '2.5.0'
+	gem 'rspec-rails', '2.11.0'
+	gem 'capybara', '1.1.2'
 end
 
 # Gems used only for assets and not required
