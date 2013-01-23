@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Post do
-  before { @post = Post.new( body: "Hello", title: "maw") }
+  before { @post = Post.new( body: "Hello", title: "Joob Joob") }
   subject {@post}
 
   it { should respond_to(:body) }
